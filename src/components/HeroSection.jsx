@@ -7,14 +7,14 @@ import { MoonStar } from "lucide-react";
 
 // Imports aqui !!
 
+
 function HeroSection() {
     return (
         <main className="pt-8">
             <section className="font-grotesk bg-gray-200 bg-blend-darken shadow-sm shadow-gray-300 h-fit p-24 pl-32 pr-32 flex justify-between overflow-hidden gap-0 mt-10 relative">
-                <MoonStar className="absolute h-96 w-96 scale-150 rotate-12 mt-14 stroke-purple-400 opacity-30 z-0" />
                 <div className="flex-col space-y-3  align-middle z-10 relative p-16">
-                    <h1 className="text-purple-600 text-8xl z-10 font-bold">Olá! meu nome é <br /> João.</h1>
-                    <p className="text-purple-500 text-4xl z-10 flex gap-1 max-w-4xl font-semibold">Desenvolvedor Web, usando JavaScript.</p>
+                    <h1 className="text-purple-600 text-9xl z-10 font-bold">Olá! meu nome é <br /> João.</h1>
+                    <p className="w-fit p-2 text-purple-500 text-5xl z-10 flex gap-1 max-w-4xl font-semibold">Desenvolvedor Web, usando JavaScript.</p>
                     <ul className="flex gap-3">
                         <li>
                             <a title="Meu Github!" href="https://github.com/guntooow" target="blank">
@@ -33,7 +33,7 @@ function HeroSection() {
                         </li>
                     </ul>
                 </div>
-                <BemVindo className=" stroke-purple-600 h-96 w-96 mt-8 p-0 m-0 scale-125 rotate-12" />
+                <MoonStar className=" stroke-purple-600 h-96 w-96 mt-8 p-0 m-0 rotate-6 scale-x-[-1]" />
             </section>
         </main>
     )
