@@ -5,7 +5,7 @@ import { Send as Contato } from "lucide-react";
 
 function Header() {
     return (
-        <header className="font-grotesk z-50 pl-32 pr-32 flex fixed backdrop-blur-lg gap-96 p-8 bg-gray-200 bg-opacity-90 shadow-violet-300  shadow-lg w-screen justify-between">
+        <header className="font-grotesk z-50 pl-32 pr-32 flex fixed backdrop-blur-lg gap-96 p-8 bg-gray-200 bg-opacity-80 drop-shadow-xl drop-shadow-red-500 w-screen justify-between">
             <div className="flex text-purple-600 gap-3 font-bold text-xl opacity-80 cursor-pointer transition-all hover:opacity-100">
                 <Logo className="stroke-purple-600 scale-150" />
                 <p id="logoname" className="w-0">João<span className="barra hover:">_</span></p>

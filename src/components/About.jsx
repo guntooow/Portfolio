@@ -16,6 +16,7 @@ function About() {
                 </div>
             </section>
         </main>
+
     )
 }
 
