@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
+input {
+  outline: 0;
+  border: 0;
+}
+
 ::selection {
-    background: rgb(155, 0, 216);
-    color: white
-  }
+  background: rgb(155, 0, 216);
+  color: white
+}
 
 @tailwind base;
 @tailwind components;

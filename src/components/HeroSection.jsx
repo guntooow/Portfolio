@@ -12,7 +12,7 @@ import { ArrowDown } from "lucide-react";
 function HeroSection() {
     return (
         <div className="flex flex-col">
-            <main className="pt-8">
+            <main className="p-20">
                 <section className=" font-grotesk bg-gray-200 shadow-sm shadow-gray-300 h-fit p-36 pl-32 pr-32 flex justify-between overflow-hidden gap-0 mt-10 relative">
                     <div className="flex-col space-y-3  align-middle z-10 relative p-16">
                         <h1 className="text-purple-600 text-9xl z-10 font-bold">Olá! meu nome é <br /> João.</h1>
