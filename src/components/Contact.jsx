@@ -9,7 +9,7 @@ import Button from "./Button"
 
 function Contact() {
     return (
-        <div className="flex p-48 gap-1 justify-between overflow-hidden">
+        <div id="contato" className="flex p-48 gap-1 justify-between overflow-hidden">
             <div className="flex flex-col">
                 <h1 className="container text-8xl text-purple-600 font-bold">Contate-me!</h1>
                 <h1 className="text-2xl text-purple-400 font-semibold p-2">Entre em contato comigo por email!</h1>
