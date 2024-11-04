@@ -20,9 +20,6 @@ function Contact() {
                         <Input img={<Nome className="stroke-purple-500" />} placeholder="Nome" />
                         <Input img={<Email className="stroke-purple-500" />} placeholder="E-mail" />
                         <Input img={<Telefone className="stroke-purple-500" />} placeholder="Telefone" />
-                        <Input img={<Pin className="stroke-purple-500" />} placeholder="Cidade" />
-                        <Input img={<Pin className="stroke-purple-500" />} placeholder="Rua" />
-                        <Input img={<Pin className="stroke-purple-500" />} placeholder="Cep" />
                     </div>
                     <div>
                         <TextArea placeholder="Mensagem" img={<Mensagem className="stroke-purple-500 self-start" />} />
